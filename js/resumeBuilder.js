@@ -10,10 +10,10 @@ This is empty on purpose! Your code to build the resume will go here.
  $("#header").append(formatedRole); 
  $("#header").prepend(formatedName);
  */
-var skills = ["Java","JavaScript","Windows","Microsoft Office","Linux","SQL","VMWare","Eclipse","SVN","Bamboo"];
+var skills = ["Java","JavaScript","Windows","Microsoft Office","Linux","SQL","VMWare","Eclipse","SVN","Bamboo","Jenkins","Selenium Webdriver"];
  var bio = {
  "name" : "Sathya Narayanan",
- "role" : "QA Engineer",
+ "role" : "Senior QA Engineer",
  "contacts" : [
  {
  "mobile":"4389392375",
@@ -29,10 +29,17 @@ var skills = ["Java","JavaScript","Windows","Microsoft Office","Linux","SQL","VM
  var work={
 "jobs": [
 {
+	"employer": "Thinking Capital Financial Corporation",
+	"location": "Montreal,Canada",
+	"title": "Senior QA Engineer",
+	"dates": "October 2016 to Present",
+	"description": "CIBC, MoneyMart, 411CA, Staples, UPS Store: Carried out functional testing of the partner portals. Developed test cases for functional testing of the application. Automated the regression testing of the portals using selenium webdriver. Installed and configured Jenkins (Continuous Integration) to carry out regression testing on production servers every 3 hours. Established a reporting framework using Extent Reports to report the results of regression testing and Continuous Integration. Carried out load testing of different partner portals using jmeter. Tools: Java, selenium webdriver, Jenkins, Extent Reports, jmeter, Eclipse, Slack, Jira"
+	},
+{
 	"employer": "Nuance Communications",
 	"location": "Montreal,Canada",
 	"title": "QA Engineer",
-	"dates": "Febraury 2014 - Present",
+	"dates": "Febraury 2014 - September 2016",
 	"description": " Tested a cloud based voice recognition application. Developed test cases for functional testing of the application. Carried out functional, Regression, Smoke, and Sanity testing. Installed weekly builds on Linux servers. Prepared weekly reports to be sent to higher management and clients. Interacted with developers and project managers to identify application defects. Coordinated with development team to verify bug fixes. Developed an automation tool to run weekly regression tests. Performed smoke and sanity testing on live servers. Guided many interns and assigned weekly tasks to them. Led a team of language consultants to test the application in different languages. Assigned them tasks and prepared detailed reports about the testing results of each language. Tools: Java, JSON, Jira, Linux, Shell, Eclipse"
 },
 {
@@ -168,6 +175,10 @@ $("#skills").append(formatedskills);
 var formatedskills = HTMLskills.replace("%data%", skills[8]);
 $("#skills").append(formatedskills);
 var formatedskills = HTMLskills.replace("%data%", skills[9]);
+$("#skills").append(formatedskills);
+var formatedskills = HTMLskills.replace("%data%", skills[10]);
+$("#skills").append(formatedskills);
+var formatedskills = HTMLskills.replace("%data%", skills[11]);
 $("#skills").append(formatedskills);
 }
  for (var contact in bio.contacts) {
