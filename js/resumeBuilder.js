@@ -54,7 +54,7 @@ var skills = ["Java","JavaScript","Windows","Microsoft Office","Linux","SQL","VM
 	"employer": "HCL Technologies",
 	"location": "Chennai,India",
 	"title": "Software Engineer in Test",
-	"dates": "Febraury 2011 - August 2011",
+	"dates": "Febraury 2011 - May 2011",
 	"description": "MeMe: Tested a web application called HCL Meme manually. Developed test cases for functional testing and unit testing of the application. Carried out functional and unit testing. Interacted with developers, business analysts to identify application defects. Coordinated with development team to verify bug fixes.YAPBACK: Involved in testing of a web based application called Yapback. Carried out manual testing of the web application by following test scripts. Automated it using Selenium Webdriver. Verified its compatibility for different browsers and different platforms. Coordinated with onshore team and development team for successful completion of the project. Technical Documentation. Demonstrated ownership and good team playing characteristics."
 	},
 {
