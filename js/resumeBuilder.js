@@ -116,6 +116,12 @@ var skills = ["Java","JavaScript","Windows","Microsoft Office","Linux","SQL","VM
 	
 },
 {
+	"title": "Online Resume",
+	"dates": "September 2016",
+	"description": "Created a website to host my resume online. Displayed my pictures, skill set, education details, project details and employment details. Integrated google maps to display the places where I lived, studied and worked. Hosted it on a server and registered the domain name.  Technology: JavaScript, JSON, jQuery, HTML, CSS"
+	
+},
+{
 	"title": "Design of JPEG Encoder",
 	"dates": "January 2013",
 	"description": "It is an iterative project. First iteration carried out just the image conversion. Enhancement was made in all iterations. Finally the aim is to develop a operating system which will schedule the READ, DCT, QUANTIZE, HUFFMAN and ZIGZAG thread and run these encoding techniques to convert a bmp image to jpeg image so that it can used for mobile cameras implemented in low power ARM processors. All the iterations carried out important concepts like multi threading, inheritance etc. Technology: C++, System C, SSH, WinSCP, VMWare  OS: Linux"	
