@@ -13,7 +13,7 @@ This is empty on purpose! Your code to build the resume will go here.
 var skills = ["Java","JavaScript","Windows","Microsoft Office","Linux","SQL","VMWare","Eclipse","SVN","Bamboo","Jenkins","Selenium Webdriver"];
  var bio = {
  "name" : "Sathya Narayanan",
- "role" : "Senior QA Engineer",
+ "role" : "Senior Software Quality Engineer",
  "contacts" : [
  {
  "mobile":"4389392375",
@@ -31,9 +31,9 @@ var skills = ["Java","JavaScript","Windows","Microsoft Office","Linux","SQL","VM
 {
 	"employer": "Thinking Capital Financial Corporation",
 	"location": "Montreal,Canada",
-	"title": "Senior QA Engineer",
+	"title": "Senior Software Quality Engineer",
 	"dates": "October 2016 to Present",
-	"description": "CIBC, MoneyMart, 411CA, Staples, UPS Store: Carried out functional testing of the partner portals. Developed test cases for functional testing of the application. Automated the regression testing of the portals using selenium webdriver. Installed and configured Jenkins (Continuous Integration) to carry out regression testing on production servers every 3 hours. Established a reporting framework using Extent Reports to report the results of regression testing and Continuous Integration. Carried out load testing of different partner portals using jmeter. Tools: Java, selenium webdriver, Jenkins, Extent Reports, jmeter, Eclipse, Slack, Jira"
+	"description": "CIBC, MoneyMart, 411CA, Staples, UPS Store: Carried out functional testing of the partner portals. Developed test cases for functional testing of the application. Automated the regression testing of the portals using selenium webdriver. Installed and configured Jenkins (Continuous Integration) to carry out regression testing on production servers every 3 hours. Established a reporting framework using Extent Reports to report the results of regression testing and Continuous Integration. Wrote a script that fills all the data in the front-end portal application automatically and navigates to the back-end salesforce and checks if all the information that was entered in the front –end portal application has been mapped to the correct objects. Tools: Java, selenium webdriver, Jenkins, Extent Reports, jmeter, Eclipse, Slack, Jira"
 	},
 {
 	"employer": "Nuance Communications",
